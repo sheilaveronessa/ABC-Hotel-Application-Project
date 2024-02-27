@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1227333_abc_ho_0_advance_booking" version="2" view="abc">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0b5442b893baf51013f833018bba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0f5442b893baf51013f833018bba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_name</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>035442b893baf51013f833018bba1085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>home_address</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>075442b893baf51013f833018bba1085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_phone_number</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0b5442b893baf51013f833018bba1085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0f5442b893baf51013f833018bba1085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>035442b893baf51013f833018bba1086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>room_preference</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>075442b893baf51013f833018bba1086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number_of_guests</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0b5442b893baf51013f833018bba1086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_services</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0f5442b893baf51013f833018bba1086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>check_in</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>035442b893baf51013f833018bba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>check_out</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>075442b893baf51013f833018bba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>smoking_or_non_smoking_preference</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0b5442b893baf51013f833018bba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>payment_type</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>0f5442b893baf51013f833018bba1087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_1227333_abc_ho_0_advance_booking" element="NULL" name="x_1227333_abc_ho_0_advance_booking" parent="NULL" relationship="NULL" sys_domain="global" view="1cbe781f936e711013f833018bba1067">8f5442b893baf51013f833018bba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_id>035442b893baf51013f833018bba1088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f5442b893baf51013f833018bba1083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1227333_abc_ho_0_advance_booking</sys_name>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_ui_list_x_1227333_abc_ho_0_advance_booking_abc</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:42:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="ABC" name="abc">1cbe781f936e711013f833018bba1067</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

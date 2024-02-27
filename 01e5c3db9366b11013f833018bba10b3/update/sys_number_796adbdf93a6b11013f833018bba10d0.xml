@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1227333_abc_ho_0_advance_booking">x_1227333_abc_ho_0_advance_booking</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>REVR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-22 09:07:58</sys_created_on>
+        <sys_id>796adbdf93a6b11013f833018bba10d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REVR</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_number_796adbdf93a6b11013f833018bba10d0</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-22 09:07:58</sys_updated_on>
+    </sys_number>
+</record_update>

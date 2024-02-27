@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Room Preference">b78abd6093fab51013f833018bba103a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-25 23:47:10</sys_created_on>
+        <sys_id>8660022893fab51013f833018bba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Honeymoon Suite </sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>question_choice_8660022893fab51013f833018bba1079</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-25 23:47:10</sys_updated_on>
+        <text>Honeymoon Suite </text>
+        <value>honeymoon_suite</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=8660022893fab51013f833018bba1079"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</application>
+        <file_path/>
+        <instance_id>f9ab21f6db26b19039639027c5961943</instance_id>
+        <instance_name>dev218440</instance_name>
+        <name>question_choice_8660022893fab51013f833018bba1079</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref/><question display_value="Room Preference">b78abd6093fab51013f833018bba103a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-25 23:47:10</sys_created_on><sys_id>8660022893fab51013f833018bba1079</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Honeymoon Suite </sys_name><sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package><sys_policy/><sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope><sys_update_name>question_choice_8660022893fab51013f833018bba1079</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-25 23:47:10</sys_updated_on><text>Honeymoon Suite </text><value>honeymoon_suite</value></question_choice><fx_price action="delete_multiple" query="id=8660022893fab51013f833018bba1079"/></record_update>]]></payload>
+        <payload_hash>-1450705900</payload_hash>
+        <record_name>Honeymoon Suite </record_name>
+        <reverted_from/>
+        <source>c1e5c3db9366b11013f833018bba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-25 23:47:11</sys_created_on>
+        <sys_id>ce60022893fab51013f833018bba107b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c08e148170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-25 23:47:11</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>42600228b3fab510c70d6b4174f17c7b</update_guid>
+        <update_guid_history>42600228b3fab510c70d6b4174f17c7b:-1450705900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Honeymoon Suite ">3d7a0a60933eb51013f833018bba1093</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 00:31:07</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>87cc34a5e7b14dee8487e049cd935fe4</sys_id>
+        <sys_metadata>8660022893fab51013f833018bba1079</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Honeymoon Suite </sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_parent display_value="room_preference">b78abd6093fab51013f833018bba103a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_scope_delete display_value="">00089fa8810d432d80b6ffd50f466a09</sys_scope_delete>
+        <sys_update_name>question_choice_8660022893fab51013f833018bba1079</sys_update_name>
+        <sys_update_version display_value="question_choice_8660022893fab51013f833018bba1079">ce60022893fab51013f833018bba107b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 00:31:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

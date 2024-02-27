@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list>mynewpdi@gmail.com; abeni1609@yahoo.com</address_list>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list name="ABC Admin Group">2101209093f6751013f833018bba1066</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <max_drift/>
+        <name>Scheduled execution of Pie Chart by Assigned to</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Pie Chart by Assigned to">e91456a9933ab91013f833018bba10bd</report>
+        <report_body><![CDATA[<p>Please see the assigned to list and update outstanding.</p>]]></report_body>
+        <report_title>Report for work assigned to Admin</report_title>
+        <run_as display_value="Nkiruka Mazeli">4678e6b293a6311013f833018bba1048</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2023-11-29 03:47:06</run_start>
+        <run_time>1970-01-01 23:00:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-29 03:57:09</sys_created_on>
+        <sys_id>791452e9933ab91013f833018bba1074</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled execution of Pie Chart by Assigned to</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sysauto_report_791452e9933ab91013f833018bba1074</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-29 18:52:04</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>4678e6b293a6311013f833018bba1048,d5e46ab293a6311013f833018bba1024,16f8a67693a6311013f833018bba10f6</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

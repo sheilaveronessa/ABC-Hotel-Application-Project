@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-22 07:57:14</sys_created_on>
+        <sys_id>393acbdf9366b11013f833018bba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1227333_abc_ho_0_u_abc_hotels_services.x_1227333_abc_ho_0.u_abc_hotel_services user</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_security_acl display_value="x_1227333_abc_ho_0_u_abc_hotels_services">713acbdf9366b11013f833018bba10a2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_393acbdf9366b11013f833018bba10a4</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-22 07:57:14</sys_updated_on>
+        <sys_user_role display_value="x_1227333_abc_ho_0.u_abc_hotel_services user" name="x_1227333_abc_ho_0.u_abc_hotel_services user">d1e5c3db9366b11013f833018bba10b9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</application>
+        <file_path/>
+        <instance_id>f9ab21f6db26b19039639027c5961943</instance_id>
+        <instance_name>dev218440</instance_name>
+        <name>sys_security_acl_role_393acbdf9366b11013f833018bba10a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Nkiruka</sys_created_by><sys_created_on>2023-11-22 07:57:14</sys_created_on><sys_id>393acbdf9366b11013f833018bba10a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1227333_abc_ho_0_u_abc_hotels_services.x_1227333_abc_ho_0.u_abc_hotel_services user</sys_name><sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package><sys_policy/><sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope><sys_security_acl display_value="x_1227333_abc_ho_0_u_abc_hotels_services">713acbdf9366b11013f833018bba10a2</sys_security_acl><sys_update_name>sys_security_acl_role_393acbdf9366b11013f833018bba10a4</sys_update_name><sys_updated_by>Nkiruka</sys_updated_by><sys_updated_on>2023-11-22 07:57:14</sys_updated_on><sys_user_role display_value="x_1227333_abc_ho_0.u_abc_hotel_services user" name="x_1227333_abc_ho_0.u_abc_hotel_services user">d1e5c3db9366b11013f833018bba10b9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1753002377</payload_hash>
+        <record_name>x_1227333_abc_ho_0_u_abc_hotels_services.x_1227333_abc_ho_0.u_abc_hotel_services user</record_name>
+        <reverted_from/>
+        <source>c1e5c3db9366b11013f833018bba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-22 07:57:14</sys_created_on>
+        <sys_id>7d3acbdf9366b11013f833018bba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bf60883110000001</sys_recorded_at>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-22 07:57:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b13acbdfc066b110d7f278bc02afd7a6</update_guid>
+        <update_guid_history>b13acbdfc066b110d7f278bc02afd7a6:-1753002377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1227333_abc_ho_0_u_abc_hotels_services.x_1227333_abc_ho_0.u_abc_hotel_services">d909579f93a6b11013f833018bba1057</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-22 09:01:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>21583a26969e408c87a5001ce1e95279</sys_id>
+        <sys_metadata>393acbdf9366b11013f833018bba10a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1227333_abc_ho_0_u_abc_hotels_services.x_1227333_abc_ho_0.u_abc_hotel_services user</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_parent display_value="">713acbdf9366b11013f833018bba10a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_scope_delete display_value="">00089fa8810d432d80b6ffd50f466a09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_393acbdf9366b11013f833018bba10a4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_393acbdf9366b11013f833018bba10a4">7d3acbdf9366b11013f833018bba10a6</sys_update_version>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-22 09:01:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae8ae0d893f6751013f833018bba106e" extends="task" label="abc booking team" max_length="40" name="x_1227333_abc_ho_0_abc_booking_team" type="collection">
+        <element label="Cleaned by" max_length="32" name="cleaned_by" reference="sys_user" type="reference"/>
+        <element label="Cleaning" max_length="40" name="cleaning" type="boolean"/>
+        <element label="Confirm payment" max_length="32" name="confirm_payment" reference="sys_user" type="reference"/>
+        <element label="On Hold" max_length="40" name="on_hold" type="boolean"/>
+        <element label="Payment Confirmed by" max_length="32" name="payment_confirmed_by" reference="sys_user_group" type="reference"/>
+        <element label="Room Inventory" max_length="1024" name="room_inventory" reference="sys_user" type="glide_list"/>
+    </element>
+</database>

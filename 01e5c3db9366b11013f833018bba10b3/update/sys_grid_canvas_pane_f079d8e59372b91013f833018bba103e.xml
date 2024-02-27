@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA ABC Hotel - New Tab">795898a59372b91013f833018bba1057</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_widget>
+        <posx>6</posx>
+        <posy>72</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+        <sys_id>f079d8e59372b91013f833018bba103e</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>795898a59372b91013f833018bba1057</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_f079d8e59372b91013f833018bba103e</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-29 17:47:52</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

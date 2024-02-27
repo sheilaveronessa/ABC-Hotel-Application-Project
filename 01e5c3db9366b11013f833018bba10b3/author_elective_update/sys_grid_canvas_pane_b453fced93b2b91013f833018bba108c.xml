@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA ABC Hotel - New Tab">795898a59372b91013f833018bba1057</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2023-11-28 12:44:19">7053f0ed93b2b91013f833018bba102c</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 20:44:19</sys_created_on>
+        <sys_id>b453fced93b2b91013f833018bba108c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>795898a59372b91013f833018bba1057</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_b453fced93b2b91013f833018bba108c</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</application>
+        <file_path/>
+        <instance_id>f9ab21f6db26b19039639027c5961943</instance_id>
+        <instance_name>dev218440</instance_name>
+        <name>sys_grid_canvas_pane_b453fced93b2b91013f833018bba108c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA ABC Hotel - New Tab">795898a59372b91013f833018bba1057</grid_canvas><height>18</height><portal_widget display_value="Created 2023-11-28 12:44:19">7053f0ed93b2b91013f833018bba102c</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>Nkiruka</sys_created_by><sys_created_on>2023-11-28 20:44:19</sys_created_on><sys_id>b453fced93b2b91013f833018bba108c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>795898a59372b91013f833018bba1057</sys_name><sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package><sys_policy/><sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope><sys_update_name>sys_grid_canvas_pane_b453fced93b2b91013f833018bba108c</sys_update_name><sys_updated_by>Nkiruka</sys_updated_by><sys_updated_on>2023-11-28 22:12:46</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1863050214</payload_hash>
+        <record_name>795898a59372b91013f833018bba1057</record_name>
+        <reverted_from/>
+        <source>c1e5c3db9366b11013f833018bba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+        <sys_id>9497c9a19336b91013f833018bba1087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c17fded330000001</sys_recorded_at>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>9c978daddaf2b910bf39f6c1d337c7e4</update_guid>
+        <update_guid_history>9c978daddaf2b910bf39f6c1d337c7e4:1863050214,8753302172f2b9101d2aea72185842c0:-121297075,b453fcedb4b2b91099a34cb47bcf388d:-86024504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 22:13:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>32507b76653443ec8c6cc13cedbe4429</sys_id>
+        <sys_metadata>b453fced93b2b91013f833018bba108c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>795898a59372b91013f833018bba1057</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_scope_delete display_value="">00089fa8810d432d80b6ffd50f466a09</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_b453fced93b2b91013f833018bba108c</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_b453fced93b2b91013f833018bba108c">9497c9a19336b91013f833018bba1087</sys_update_version>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 22:13:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

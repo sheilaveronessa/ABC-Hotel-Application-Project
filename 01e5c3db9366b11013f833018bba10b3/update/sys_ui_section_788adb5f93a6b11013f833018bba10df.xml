@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="788adb5f93a6b11013f833018bba10df" sys_domain="global" table="x_1227333_abc_ho_0_advance_booking" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>07cf0da99336b91013f833018bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4fcf0da99336b91013f833018bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_name</element>
+            <position>2</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>43cf0da99336b91013f833018bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_address</element>
+            <position>3</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>47cf0da99336b91013f833018bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_phone_number</element>
+            <position>4</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4bcf0da99336b91013f833018bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4fcf0da99336b91013f833018bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>43cf0da99336b91013f833018bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_guests</element>
+            <position>7</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>47cf0da99336b91013f833018bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>8</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4bcf0da99336b91013f833018bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4fcf0da99336b91013f833018bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_services</element>
+            <position>10</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>43cf0da99336b91013f833018bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>room_preference</element>
+            <position>11</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>47cf0da99336b91013f833018bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>check_in</element>
+            <position>12</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4bcf0da99336b91013f833018bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>check_out</element>
+            <position>13</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4fcf0da99336b91013f833018bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>smoking_or_non_smoking_preference</element>
+            <position>14</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>43cf0da99336b91013f833018bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_requests</element>
+            <position>15</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>47cf0da99336b91013f833018bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_type</element>
+            <position>16</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4bcf0da99336b91013f833018bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4fcf0da99336b91013f833018bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>18</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>43cf0da99336b91013f833018bba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>19</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>47cf0da99336b91013f833018bba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>20</position>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-28 22:48:43</sys_created_on>
+            <sys_id>4bcf0da99336b91013f833018bba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1227333_abc_ho_0_advance_booking" sys_domain="global" view="Default view">788adb5f93a6b11013f833018bba10df</sys_ui_section>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-28 22:48:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-22 09:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>788adb5f93a6b11013f833018bba10df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1227333_abc_ho_0_advance_booking</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_ui_section_788adb5f93a6b11013f833018bba10df</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-22 09:08:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

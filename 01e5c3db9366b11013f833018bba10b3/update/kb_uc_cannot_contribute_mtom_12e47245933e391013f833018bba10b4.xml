@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_contribute_mtom">
+    <kb_uc_cannot_contribute_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Can I park at the ABC  hotel?">e6443a05933e391013f833018bba108e</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_contribute_mtom</sys_class_name>
+        <sys_created_by>tomilola</sys_created_by>
+        <sys_created_on>2023-11-27 16:53:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12e47245933e391013f833018bba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can I park at the ABC  hostel?.Guest User</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>kb_uc_cannot_contribute_mtom_12e47245933e391013f833018bba10b4</sys_update_name>
+        <sys_updated_by>tomilola</sys_updated_by>
+        <sys_updated_on>2023-11-27 16:53:32</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </kb_uc_cannot_contribute_mtom>
+</record_update>

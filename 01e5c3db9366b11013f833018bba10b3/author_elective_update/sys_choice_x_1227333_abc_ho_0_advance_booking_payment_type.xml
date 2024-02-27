@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_type" table="x_1227333_abc_ho_0_advance_booking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>payment_type</element>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>payment_type</sys_name>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_choice_x_1227333_abc_ho_0_advance_booking_payment_type</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visa</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+            <value>visa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mastercard</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+            <value>mastercard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>American Express</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+            <value>american_express</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discover</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+            <value>discover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:37</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

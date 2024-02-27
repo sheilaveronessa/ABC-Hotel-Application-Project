@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Bookings per Guests">766120ad9372b91013f833018bba1059</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 19:26:05</sys_created_on>
+        <sys_id>fa6120ad9372b91013f833018bba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>766120ad9372b91013f833018bba1059</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_report_users_groups_fa6120ad9372b91013f833018bba1059</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 19:26:05</sys_updated_on>
+        <user_id display_value="Nkiruka Mazeli">4678e6b293a6311013f833018bba1048</user_id>
+    </sys_report_users_groups>
+</record_update>

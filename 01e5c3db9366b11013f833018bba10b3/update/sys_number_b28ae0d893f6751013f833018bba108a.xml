@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1227333_abc_ho_0_abc_booking_team">x_1227333_abc_ho_0_abc_booking_team</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ABCB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-24 22:53:33</sys_created_on>
+        <sys_id>b28ae0d893f6751013f833018bba108a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ABCB</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_number_b28ae0d893f6751013f833018bba108a</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-24 22:53:33</sys_updated_on>
+    </sys_number>
+</record_update>

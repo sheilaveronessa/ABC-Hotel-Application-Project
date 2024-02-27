@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="home_address" label="Home Address" language="en" table="x_1227333_abc_ho_0_advance_booking">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>home_address</element>
+            <help/>
+            <hint/>
+            <label>Home Address</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-23 15:58:31</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Home Address</sys_name>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_documentation_x_1227333_abc_ho_0_advance_booking_home_address_en</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-23 15:58:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

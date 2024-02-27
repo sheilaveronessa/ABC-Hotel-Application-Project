@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-02-27 17:17:40">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-28 18:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>355898a59372b91013f833018bba1056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ABC Hotel - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_portal_page_355898a59372b91013f833018bba1056</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-28 18:46:25</sys_updated_on>
+        <title>PA ABC Hotel - New Tab</title>
+        <user/>
+        <view>pa_abc_hotel_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Pie Chart by Assigned to</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                <sys_id>0686926d933ab91013f833018bba1087</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>0286926d933ab91013f833018bba1089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>0686926d933ab91013f833018bba1088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>4e86926d933ab91013f833018bba1088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>8a86926d933ab91013f833018bba1087</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>e91456a9933ab91013f833018bba10bd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>8a86926d933ab91013f833018bba1088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>c286926d933ab91013f833018bba1089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>Pie Chart by Assigned to</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>c686926d933ab91013f833018bba1088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 19:57:46">0686926d933ab91013f833018bba1087</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:57:46</sys_created_on>
+                        <sys_id>ce86926d933ab91013f833018bba1089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:57:46</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>List of Open Bookings</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                <sys_id>14978dad93f2b91013f833018bba10e1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>14978dad93f2b91013f833018bba10e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>50978dad93f2b91013f833018bba10e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>94978dad93f2b91013f833018bba10e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>67333c6d93b2b91013f833018bba102b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>98978dad93f2b91013f833018bba10e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>List of Open Bookings</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>9c978dad93f2b91013f833018bba10e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>d4978dad93f2b91013f833018bba10e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>d8978dad93f2b91013f833018bba10e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 14:12:46">14978dad93f2b91013f833018bba10e1</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 22:12:46</sys_created_on>
+                        <sys_id>dc978dad93f2b91013f833018bba10e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 22:12:46</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Inquiry by Payment Method</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                <sys_id>34fe0625933ab91013f833018bba1030</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>34fe0625933ab91013f833018bba1031</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>70fe0625933ab91013f833018bba1031</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>b4fe0625933ab91013f833018bba1030</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>caee4aa1933ab91013f833018bba1031</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>b8fe0625933ab91013f833018bba1031</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>Inquiry by Payment Method</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>bcfe0625933ab91013f833018bba1030</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>f4fe0625933ab91013f833018bba1031</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>f8fe0625933ab91013f833018bba1030</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 19:24:38">34fe0625933ab91013f833018bba1030</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:24:38</sys_created_on>
+                        <sys_id>fcfe0625933ab91013f833018bba1031</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:24:38</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Inquiry by Additional Services</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                <sys_id>605b0261933ab91013f833018bba10e8</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>245b0aa1933ab91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>285b0aa1933ab91013f833018bba1009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>2c5b0aa1933ab91013f833018bba1008</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>6a3b066d93f6b91013f833018bba10a1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>605b0aa1933ab91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>ac5b0aa1933ab91013f833018bba1009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>e05b0aa1933ab91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>e45b0aa1933ab91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>Inquiry by Additional Services</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 19:08:47">605b0261933ab91013f833018bba10e8</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:08:47</sys_created_on>
+                        <sys_id>e85b0aa1933ab91013f833018bba1009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:08:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Number of bookings per Day</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                <sys_id>6b7495b593f2f91013f833018bba1089</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>2374957d93f2f91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>ad7415b593f2f91013f833018bba10d9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>2374957d93f2f91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>2774957d93f2f91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>6b74957d93f2f91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>Number of bookings per Day</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>6f74957d93f2f91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>a774957d93f2f91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>ab74957d93f2f91013f833018bba100a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-29 09:47:43">6b7495b593f2f91013f833018bba1089</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 17:47:43</sys_created_on>
+                        <sys_id>e374957d93f2f91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 17:47:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Inquiry by Room Preference</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-28 18:51:16</sys_created_on>
+                <sys_id>787990259372b91013f833018bba106f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:16</sys_created_on>
+                        <sys_id>307990259372b91013f833018bba1070</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:16</sys_updated_on>
+                        <value>be05cced93fe791013f833018bba1047</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>347990259372b91013f833018bba1071</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>707990259372b91013f833018bba1071</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>7079d8e59372b91013f833018bba103d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>Inquiry by Room Preference</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>7c79d8e59372b91013f833018bba103d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>bc7990259372b91013f833018bba1070</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>bc79d8e59372b91013f833018bba103c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 10:51:16">787990259372b91013f833018bba106f</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 18:51:17</sys_created_on>
+                        <sys_id>f87990259372b91013f833018bba1070</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 18:51:17</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Bookings per Guests</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                <sys_id>9b81a86d9372b91013f833018bba10e2</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>1381a86d9372b91013f833018bba10e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>766120ad9372b91013f833018bba1059</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>1381a86d9372b91013f833018bba10e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>1781a86d9372b91013f833018bba10e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>5b81a86d9372b91013f833018bba10e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>Bookings per Guests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>5f81a86d9372b91013f833018bba10e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>9781a86d9372b91013f833018bba10e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>9b81a86d9372b91013f833018bba10e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 11:26:40">9b81a86d9372b91013f833018bba10e2</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 19:26:40</sys_created_on>
+                        <sys_id>d381a86d9372b91013f833018bba10e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 19:26:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Inquiry by Special Request</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                <sys_id>cddc0261933ab91013f833018bba109c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>01dccee1933ab91013f833018bba105b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>09dccee1933ab91013f833018bba105b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>41dc0261933ab91013f833018bba109d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>3dbc0aa1933ab91013f833018bba10c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>49dc0261933ab91013f833018bba109d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>4ddccee1933ab91013f833018bba105a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>85dc0261933ab91013f833018bba109d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>89dccee1933ab91013f833018bba105a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 19:15:22">cddc0261933ab91013f833018bba109c</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:15:22</sys_created_on>
+                        <sys_id>c1dccee1933ab91013f833018bba105b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:15:22</sys_updated_on>
+                        <value>Inquiry by Special Request</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Cancelled Booking</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                <sys_id>ce22f8ed9372b91013f833018bba100a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>0a22f8ed9372b91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>4622f8ed9372b91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>ee12f8ed9372b91013f833018bba10de</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>4622f8ed9372b91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>4a22f8ed9372b91013f833018bba100d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>8222f8ed9372b91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>8e22f8ed9372b91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>Cancelled Booking</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>ca22f8ed9372b91013f833018bba100c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 12:39:13">ce22f8ed9372b91013f833018bba100a</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-28 20:39:13</sys_created_on>
+                        <sys_id>ce22f8ed9372b91013f833018bba100b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-28 20:39:13</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+                <summary>Inquiry by Smoking and Non Smoking</summary>
+                <sys_created_by>Nkiruka</sys_created_by>
+                <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                <sys_id>f0509aa5933ab91013f833018bba10ed</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Nkiruka</sys_updated_by>
+                <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>30509aa5933ab91013f833018bba10ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>74509aa5933ab91013f833018bba10ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>4330daa5933ab91013f833018bba1074</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>78509aa5933ab91013f833018bba10ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>Inquiry by Smoking and Non Smoking</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>7c509aa5933ab91013f833018bba10ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>b4509aa5933ab91013f833018bba10ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>pyramid</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>b8509aa5933ab91013f833018bba10ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>bc509aa5933ab91013f833018bba10ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-28 19:30:39">f0509aa5933ab91013f833018bba10ed</portal_section>
+                        <sys_created_by>Nkiruka</sys_created_by>
+                        <sys_created_on>2023-11-29 03:30:39</sys_created_on>
+                        <sys_id>f0509aa5933ab91013f833018bba10ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Nkiruka</sys_updated_by>
+                        <sys_updated_on>2023-11-29 03:30:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

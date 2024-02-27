@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="abc booking team" language="en" table="x_1227333_abc_ho_0_abc_booking_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>abc booking team</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_abc_booking_team</name>
+            <plural>abc booking teams</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-24 22:53:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>abc booking team</sys_name>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_documentation_x_1227333_abc_ho_0_abc_booking_team__en</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-24 22:53:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

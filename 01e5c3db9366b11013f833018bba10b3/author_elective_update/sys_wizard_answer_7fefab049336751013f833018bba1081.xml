@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Employee Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Employee Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4b8574397d31311076daf29f52070d17</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-24 18:37:28</sys_created_on>
+        <sys_id>7fefab049336751013f833018bba1081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Task</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_wizard_answer_7fefab049336751013f833018bba1081</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-24 18:37:28</sys_updated_on>
+        <table/>
+        <target_url>x_1227333_abc_ho_0_employee_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</application>
+        <file_path/>
+        <instance_id>f9ab21f6db26b19039639027c5961943</instance_id>
+        <instance_name>dev218440</instance_name>
+        <name>sys_wizard_answer_7fefab049336751013f833018bba1081</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Employee Task</answer><button_label/><dependent_value/><element/><name>Employee Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">4b8574397d31311076daf29f52070d17</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>Nkiruka</sys_created_by><sys_created_on>2023-11-24 18:37:28</sys_created_on><sys_id>7fefab049336751013f833018bba1081</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Task</sys_name><sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package><sys_policy/><sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope><sys_update_name>sys_wizard_answer_7fefab049336751013f833018bba1081</sys_update_name><sys_updated_by>Nkiruka</sys_updated_by><sys_updated_on>2023-11-24 18:37:28</sys_updated_on><table/><target_url>x_1227333_abc_ho_0_employee_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>407629435</payload_hash>
+        <record_name>Employee Task</record_name>
+        <reverted_from/>
+        <source>c1e5c3db9366b11013f833018bba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-24 18:37:28</sys_created_on>
+        <sys_id>77efab049336751013f833018bba1084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c029f61fe0000001</sys_recorded_at>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-24 18:37:28</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>7befab04d7367510c2b90dd08d6a8283</update_guid>
+        <update_guid_history>7befab04d7367510c2b90dd08d6a8283:407629435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-24 22:46:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>1b4bb395b9104b8089d334790b5da400</sys_id>
+        <sys_metadata>7fefab049336751013f833018bba1081</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Task</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_parent display_value="Task">4b8574397d31311076daf29f52070d17</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_scope_delete display_value="">00089fa8810d432d80b6ffd50f466a09</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_7fefab049336751013f833018bba1081</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_7fefab049336751013f833018bba1081">77efab049336751013f833018bba1084</sys_update_version>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-24 22:46:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

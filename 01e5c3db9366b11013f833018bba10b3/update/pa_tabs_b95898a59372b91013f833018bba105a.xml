@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA ABC Hotel - New Tab">795898a59372b91013f833018bba1057</canvas_page>
+        <name>ABC Hotel - New Tab</name>
+        <page display_value="PA ABC Hotel - New Tab">355898a59372b91013f833018bba1056</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-28 18:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b95898a59372b91013f833018bba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ABC Hotel - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>pa_tabs_b95898a59372b91013f833018bba105a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-28 18:46:25</sys_updated_on>
+    </pa_tabs>
+</record_update>

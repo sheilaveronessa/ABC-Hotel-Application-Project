@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="additional_services" table="x_1227333_abc_ho_0_advance_booking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>additional_services</element>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-22 09:29:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>additional_services</sys_name>
+            <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+            <sys_update_name>sys_choice_x_1227333_abc_ho_0_advance_booking_additional_services</sys_update_name>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-22 09:29:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>additional_services</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airport Shuttle</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:38</sys_updated_on>
+            <value>airport_shuttle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>additional_services</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Late Check - out</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:38</sys_updated_on>
+            <value>late_check_out</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>additional_services</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Early Check -In</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:38</sys_updated_on>
+            <value>early_check_in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>additional_services</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spa &amp; Sauna</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:38</sys_updated_on>
+            <value>spa_sauna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>additional_services</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dry-Cleaning</label>
+            <language>en</language>
+            <name>x_1227333_abc_ho_0_advance_booking</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Nkiruka</sys_created_by>
+            <sys_created_on>2023-11-26 18:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Nkiruka</sys_updated_by>
+            <sys_updated_on>2023-11-26 18:23:38</sys_updated_on>
+            <value>dry_cleaning</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

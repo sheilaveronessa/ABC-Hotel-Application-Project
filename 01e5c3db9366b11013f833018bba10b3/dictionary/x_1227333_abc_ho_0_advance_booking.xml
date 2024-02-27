@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a56adbdf93a6b11013f833018bba1089" extends="task" label="Advance Booking" max_length="40" name="x_1227333_abc_ho_0_advance_booking" type="collection">
+        <element choice="3" label="Additional Services" max_length="40" name="additional_services" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Airport Shuttle" sequence="0" value="airport_shuttle"/>
+                <element inactive_on_update="false" label="Late Check - out" sequence="1" value="late_check_out"/>
+                <element inactive_on_update="false" label="Early Check -In" sequence="2" value="early_check_in"/>
+                <element inactive_on_update="false" label="Spa &amp; Sauna" sequence="3" value="spa_sauna"/>
+                <element inactive_on_update="false" label="Dry-Cleaning" sequence="4" value="dry_cleaning"/>
+            </choice>
+        </element>
+        <element label="Check In" max_length="40" name="check_in" type="glide_date_time"/>
+        <element label="Check Out" max_length="40" name="check_out" type="glide_date_time"/>
+        <element label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element label="Client Phone Number" max_length="40" name="client_phone_number" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Home Address" max_length="40" name="home_address" type="string"/>
+        <element choice="3" label="Number of Guests" max_length="40" name="number_of_guests" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element choice="3" label="Payment Type" max_length="40" name="payment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Visa" sequence="0" value="visa"/>
+                <element inactive_on_update="false" label="Mastercard" sequence="1" value="mastercard"/>
+                <element inactive_on_update="false" label="American Express" sequence="2" value="american_express"/>
+                <element inactive_on_update="false" label="Discover" sequence="3" value="discover"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element choice="1" label="Room Preference" max_length="40" name="room_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
+                <element inactive_on_update="false" label="Double" sequence="1" value="double"/>
+                <element inactive_on_update="false" label="Suite" sequence="2" value="suite"/>
+                <element inactive_on_update="false" label="Rooms with special request" sequence="3" value="rooms_with_special_request"/>
+            </choice>
+        </element>
+        <element choice="1" label="Room Type" max_length="40" name="room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Duluxe" sequence="1" value="duluxe"/>
+                <element inactive_on_update="false" label="Suite" sequence="2" value="suite"/>
+            </choice>
+        </element>
+        <element choice="3" label="Smoking or Non Smoking Preference" max_length="40" name="smoking_or_non_smoking_preference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Smoking" sequence="0" value="non_smoking"/>
+                <element inactive_on_update="false" label="Smoking" sequence="1" value="smoking"/>
+            </choice>
+        </element>
+        <element choice="1" label="Special Requests" max_length="40" name="special_requests" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accessibility Requirements" sequence="0" value="accessibility_requirements"/>
+                <element inactive_on_update="false" label="Dietary Needs" sequence="1" value="dietary_needs"/>
+                <element inactive_on_update="false" label="Pet Accommodations" sequence="2" value="pet_accommodations"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

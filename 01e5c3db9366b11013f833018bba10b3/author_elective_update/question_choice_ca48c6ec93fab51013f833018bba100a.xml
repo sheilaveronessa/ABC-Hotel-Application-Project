@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Special Requests">7e57062093fab51013f833018bba1066</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 00:21:34</sys_created_on>
+        <sys_id>ca48c6ec93fab51013f833018bba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>question_choice_ca48c6ec93fab51013f833018bba100a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 00:21:34</sys_updated_on>
+        <text>Other</text>
+        <value>other</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ca48c6ec93fab51013f833018bba100a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</application>
+        <file_path/>
+        <instance_id>f9ab21f6db26b19039639027c5961943</instance_id>
+        <instance_name>dev218440</instance_name>
+        <name>question_choice_ca48c6ec93fab51013f833018bba100a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="Special Requests">7e57062093fab51013f833018bba1066</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-26 00:21:34</sys_created_on><sys_id>ca48c6ec93fab51013f833018bba100a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Other</sys_name><sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package><sys_policy/><sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope><sys_update_name>question_choice_ca48c6ec93fab51013f833018bba100a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-26 00:21:34</sys_updated_on><text>Other</text><value>other</value></question_choice><fx_price action="delete_multiple" query="id=ca48c6ec93fab51013f833018bba100a"/></record_update>]]></payload>
+        <payload_hash>1817567651</payload_hash>
+        <record_name>Other</record_name>
+        <reverted_from/>
+        <source>c1e5c3db9366b11013f833018bba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 00:21:34</sys_created_on>
+        <sys_id>0648c6ec93fab51013f833018bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c0900c5fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 00:21:34</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8648c6ecf5fab5102338199181f37f0c</update_guid>
+        <update_guid_history>8648c6ecf5fab5102338199181f37f0c:1817567651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Other">2d2bc2a0933eb51013f833018bba100b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 00:34:06</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0a6f61984fac41ad814bf480b6f1bc19</sys_id>
+        <sys_metadata>ca48c6ec93fab51013f833018bba100a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_parent display_value="Special Requests">7e57062093fab51013f833018bba1066</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_scope_delete display_value="">00089fa8810d432d80b6ffd50f466a09</sys_scope_delete>
+        <sys_update_name>question_choice_ca48c6ec93fab51013f833018bba100a</sys_update_name>
+        <sys_update_version display_value="question_choice_ca48c6ec93fab51013f833018bba100a">0648c6ec93fab51013f833018bba100d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 00:34:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

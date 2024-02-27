@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="Additional Services (If Applicable)">b9f1822893fab51013f833018bba10b0</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 00:14:49</sys_created_on>
+        <sys_id>cfb68e6c93fab51013f833018bba1072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dry-cleaning</sys_name>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>question_choice_cfb68e6c93fab51013f833018bba1072</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 00:14:49</sys_updated_on>
+        <text>Dry-cleaning</text>
+        <value>dry_cleaning</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=cfb68e6c93fab51013f833018bba1072"/>
+</record_update>

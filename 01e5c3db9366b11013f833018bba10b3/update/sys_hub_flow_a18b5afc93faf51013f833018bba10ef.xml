@@ -1,0 +1,3066 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>To track room inventory, tasks, and send email acknowledgements</description>
+        <internal_name>abc</internal_name>
+        <label_cache>[{"name":"f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Advance Booking Record","reference":"x_1227333_abc_ho_0_advance_booking","reference_display":"Advance Booking","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.2101209093f6751013f833018bba1066}}","label":"ABC Admin Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"email"},{"name":"Created or Updated_1.current.client_name","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Client Name","reference":"","reference_display":"Client Name","type":"string","base_type":"string","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"client_name"},{"name":"Created or Updated_1.current.room_preference","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Room Preference","reference":"","reference_display":"Room Preference","type":"choice","base_type":"choice","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"room_preference","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Single","image":"","rawLabel":"Single","selected":false,"missing":false,"reference":false,"value":"single","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Double","image":"","rawLabel":"Double","selected":false,"missing":false,"reference":false,"value":"double","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Suite","image":"","rawLabel":"Suite","selected":false,"missing":false,"reference":false,"value":"suite","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Other","image":"","rawLabel":"Other","selected":false,"missing":false,"reference":false,"value":"other","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}}]}]</label_cache>
+        <master_snapshot>4bc538119336791013f833018bba1072</master_snapshot>
+        <name>ABC </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>bbc578119336791013f833018bba10d9</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-26 20:24:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a18b5afc93faf51013f833018bba10ef</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>ABC </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name>sys_hub_flow_a18b5afc93faf51013f833018bba10ef</sys_update_name>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1227333_abc_ho_0_advance_booking">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bbc578119336791013f833018bba10d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <table>x_1227333_abc_ho_0_advance_booking</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>a18b5afc93faf51013f833018bba10ef</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:41</sys_created_on>
+        <sys_id>77c578119336791013f833018bba10da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <trigger display_value="">bbc578119336791013f833018bba10d9</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN77c578119336791013f833018bba10da"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN5a9e4bbc93bef51013f833018bba10a8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>5a9e4bbc93bef51013f833018bba10a8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a9e4bbc93bef51013f833018bba10a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a9e4bbc93bef51013f833018bba10a8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>1e9e4bbc93bef51013f833018bba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a9e4bbc93bef51013f833018bba10a8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>929e4bbc93bef51013f833018bba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a9e4bbc93bef51013f833018bba10a8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>9a9e4bbc93bef51013f833018bba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=5a9e4bbc93bef51013f833018bba10a8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN658b5afc93faf51013f833018bba10f1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a18b5afc93faf51013f833018bba10ef</id>
+        <name>ABC </name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-26 20:24:07</sys_created_on>
+        <sys_id>658b5afc93faf51013f833018bba10f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-26 20:24:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=658b5afc93faf51013f833018bba10f1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN529e03bc93bef51013f833018bba102e,9e9e4bbc93bef51013f833018bba109f,d69e4bbc93bef51013f833018bba10a3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABC ">a18b5afc93faf51013f833018bba10ef</model>
+        <model_id>a18b5afc93faf51013f833018bba10ef</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>529e03bc93bef51013f833018bba102e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="ABC ">a18b5afc93faf51013f833018bba10ef</model>
+        <model_id>a18b5afc93faf51013f833018bba10ef</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>9e9e4bbc93bef51013f833018bba109f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABC ">a18b5afc93faf51013f833018bba10ef</model>
+        <model_id>a18b5afc93faf51013f833018bba10ef</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>d69e4bbc93bef51013f833018bba10a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN0f3b27789332391013f833018bba1047,4f3b27789332391013f833018bba104e,56f61bb493fef51013f833018bba10db,7bb15b7093fef51013f833018bba104d,833b27789332391013f833018bba1030,8b3b27789332391013f833018bba103b,8c76ae8593fa391013f833018bba10de,ea74933493fef51013f833018bba10bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>10</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>0f3b27789332391013f833018bba1047</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:11</sys_updated_on>
+        <ui_id>a3241f5f-9846-4af9-ac0b-a37d53d2088b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f3b27789332391013f833018bba1047"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f3b27789332391013f833018bba1047</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>833b27789332391013f833018bba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>Your Cancellation is Complete</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f3b27789332391013f833018bba1047</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>cf3b27789332391013f833018bba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f3b27789332391013f833018bba1047"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>0f3b27789332391013f833018bba1047</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>8b3b27789332391013f833018bba1049</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a0f74646-493b-4f8c-8bb1-c1063a9f11a0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:a0f74646-493b-4f8c-8bb1-c1063a9f11a0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Client Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Client Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a0f74646-493b-4f8c-8bb1-c1063a9f11a0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We have cancelled your reservation as per your request.&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>0f3b27789332391013f833018bba1047</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>4f3b27789332391013f833018bba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>0f3b27789332391013f833018bba1047</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>c73b27789332391013f833018bba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f3b27789332391013f833018bba1047"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f3b27789332391013f833018bba1047"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>11</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>4f3b27789332391013f833018bba104e</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:11</sys_updated_on>
+        <ui_id>b597e54e-2ad3-4b48-9224-fda1dbe2194c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f3b27789332391013f833018bba104e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f3b27789332391013f833018bba104e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>873b27789332391013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>short_description=Adjust room inventory accordingly to create availability online</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f3b27789332391013f833018bba104e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>c33b27789332391013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=4f3b27789332391013f833018bba104e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4f3b27789332391013f833018bba104e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f3b27789332391013f833018bba104e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Check room availability</comment>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>4</order>
+        <parent_ui_id>3167144e-c7e8-4760-b962-94dc03701a60</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:43:52</sys_created_on>
+        <sys_id>56f61bb493fef51013f833018bba10db</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:10</sys_updated_on>
+        <ui_id>c4fba501-5e34-4382-8ce1-1750155a2641</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56f61bb493fef51013f833018bba10db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>56f61bb493fef51013f833018bba10db</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:43:52</sys_created_on>
+        <sys_id>1af61bb493fef51013f833018bba10e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:43:52</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>56f61bb493fef51013f833018bba10db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:43:52</sys_created_on>
+        <sys_id>daf61bb493fef51013f833018bba10e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:43:52</sys_updated_on>
+        <value>short_description=Check room availability</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=56f61bb493fef51013f833018bba10db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=56f61bb493fef51013f833018bba10db"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=56f61bb493fef51013f833018bba10db"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>7bb15b7093fef51013f833018bba104d</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:10</sys_updated_on>
+        <ui_id>f26cfeef-9e16-4b3e-86b9-5ca632cb981a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7bb15b7093fef51013f833018bba104d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7bb15b7093fef51013f833018bba104d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>3fb15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7bb15b7093fef51013f833018bba104d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>7bb15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7bb15b7093fef51013f833018bba104d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>b7b15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7bb15b7093fef51013f833018bba104d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>ffb15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7bb15b7093fef51013f833018bba104d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>73b15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.2101209093f6751013f833018bba1066}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>33b15b7093fef51013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>bfb15b7093fef51013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>3bb15b7093fef51013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>fbb15b7093fef51013f833018bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7bb15b7093fef51013f833018bba104d</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:21:02</sys_created_on>
+        <sys_id>37b15b7093fef51013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:21:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7bb15b7093fef51013f833018bba104d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bb15b7093fef51013f833018bba104d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>6</order>
+        <parent_ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>833b27789332391013f833018bba1030</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:10</sys_updated_on>
+        <ui_id>5d7bc649-11d0-4ab0-9a71-be8d4f60a3d5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=833b27789332391013f833018bba1030"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>833b27789332391013f833018bba1030</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>0b3b27789332391013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>&lt;p&gt;There are no rooms available at this time!&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>833b27789332391013f833018bba1030</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>833b27789332391013f833018bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>Sorry, we couldn't book it.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>833b27789332391013f833018bba1030</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>cf3b27789332391013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=833b27789332391013f833018bba1030"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>833b27789332391013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>4f3b27789332391013f833018bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>833b27789332391013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>873b27789332391013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>833b27789332391013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>873b27789332391013f833018bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>833b27789332391013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>033b27789332391013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>833b27789332391013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>c33b27789332391013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=833b27789332391013f833018bba1030"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=833b27789332391013f833018bba1030"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Room Cleaning</comment>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>8b3b27789332391013f833018bba103b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:11</sys_updated_on>
+        <ui_id>44e311ba-bf41-4e21-a982-5bed159562a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8b3b27789332391013f833018bba103b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8b3b27789332391013f833018bba103b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>073b27789332391013f833018bba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8b3b27789332391013f833018bba103b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>c73b27789332391013f833018bba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>short_description=Clean room when booking has reached end date</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=8b3b27789332391013f833018bba103b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b3b27789332391013f833018bba103b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8b3b27789332391013f833018bba103b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>12</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>8c76ae8593fa391013f833018bba10de</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:11</sys_updated_on>
+        <ui_id>5dee7ff2-b499-4c34-9746-73e7474fcd34</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8c76ae8593fa391013f833018bba10de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c76ae8593fa391013f833018bba10de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>8476ae8593fa391013f833018bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:50:17</sys_updated_on>
+        <value>reassignment_count=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c76ae8593fa391013f833018bba10de</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>8c76ae8593fa391013f833018bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:50:17</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8c76ae8593fa391013f833018bba10de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8c76ae8593fa391013f833018bba10de</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>0476ae8593fa391013f833018bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:50:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8c76ae8593fa391013f833018bba10de</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>8876ae8593fa391013f833018bba10e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:50:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8c76ae8593fa391013f833018bba10de</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 15:50:17</sys_created_on>
+        <sys_id>4076ae8593fa391013f833018bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:50:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8c76ae8593fa391013f833018bba10de"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c76ae8593fa391013f833018bba10de"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send Acknowledgement Email</comment>
+        <display_text/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <order>3</order>
+        <parent_ui_id>3167144e-c7e8-4760-b962-94dc03701a60</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>ea74933493fef51013f833018bba10bc</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 03:45:10</sys_updated_on>
+        <ui_id>90341f68-2691-4c9f-a57c-bca3b6c53d97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea74933493fef51013f833018bba10bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea74933493fef51013f833018bba10bc</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>2274933493fef51013f833018bba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <value>Thank you. Your Reservation was successful!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea74933493fef51013f833018bba10bc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>6e74933493fef51013f833018bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea74933493fef51013f833018bba10bc</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>aa74933493fef51013f833018bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea74933493fef51013f833018bba10bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ea74933493fef51013f833018bba10bc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>ee74933493fef51013f833018bba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d8dff601-8134-4662-a125-617d22752320}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d8dff601-8134-4662-a125-617d22752320}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Client Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Client Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d8dff601-8134-4662-a125-617d22752320" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;This is an acknowledgement that you have reserved a&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d2068bad-c264-436d-b3f6-0ec3c7cf3835}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d2068bad-c264-436d-b3f6-0ec3c7cf3835}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Room Preference"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Room Preference&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d2068bad-c264-436d-b3f6-0ec3c7cf3835" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with us today. We hope you enjoy your stay with us.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ea74933493fef51013f833018bba10bc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>2a74933493fef51013f833018bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ea74933493fef51013f833018bba10bc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>2e74933493fef51013f833018bba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ea74933493fef51013f833018bba10bc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>a274933493fef51013f833018bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ea74933493fef51013f833018bba10bc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>6674933493fef51013f833018bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea74933493fef51013f833018bba10bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea74933493fef51013f833018bba10bc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN033b27789332391013f833018bba103e,c122df7093fef51013f833018bba1030,cf3b27789332391013f833018bba1034,f7c757f493fef51013f833018bba106e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4f3b27789332391013f833018bba103d</block>
+        <comment>If reservation is cancelled before payment has been made</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>033b27789332391013f833018bba103e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:42</sys_updated_on>
+        <ui_id>08930206-d674-425a-8baa-aa39b97988f6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=033b27789332391013f833018bba103e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>033b27789332391013f833018bba103e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>833b27789332391013f833018bba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <value>Cancelled</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=033b27789332391013f833018bba103e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>033b27789332391013f833018bba103e</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>033b27789332391013f833018bba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=cancelled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>033b27789332391013f833018bba103e</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>4f3b27789332391013f833018bba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=033b27789332391013f833018bba103e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=033b27789332391013f833018bba103e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c522df7093fef51013f833018bba102f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:22:45</sys_created_on>
+        <sys_id>c122df7093fef51013f833018bba1030</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:42</sys_updated_on>
+        <ui_id>3167144e-c7e8-4760-b962-94dc03701a60</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c122df7093fef51013f833018bba1030"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c122df7093fef51013f833018bba1030</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:22:45</sys_created_on>
+        <sys_id>4122df7093fef51013f833018bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:22:45</sys_updated_on>
+        <value>Approved </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c122df7093fef51013f833018bba1030"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c122df7093fef51013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:22:45</sys_created_on>
+        <sys_id>cd22df7093fef51013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:22:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>c122df7093fef51013f833018bba1030</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:22:45</sys_created_on>
+        <sys_id>0d22df7093fef51013f833018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:22:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c122df7093fef51013f833018bba1030"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c122df7093fef51013f833018bba1030"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b3b27789332391013f833018bba1034</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>cf3b27789332391013f833018bba1034</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:42</sys_updated_on>
+        <ui_id>e8ec290f-d2a7-4bfc-a73f-2509f11f4e22</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf3b27789332391013f833018bba1034"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cf3b27789332391013f833018bba1034"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf3b27789332391013f833018bba1034"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">37c757f493fef51013f833018bba106e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:47:31</sys_created_on>
+        <sys_id>f7c757f493fef51013f833018bba106e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:42</sys_updated_on>
+        <ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f7c757f493fef51013f833018bba106e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f7c757f493fef51013f833018bba106e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:47:32</sys_created_on>
+        <sys_id>77c757f493fef51013f833018bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:47:32</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f7c757f493fef51013f833018bba106e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f7c757f493fef51013f833018bba106e</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:47:32</sys_created_on>
+        <sys_id>f3c757f493fef51013f833018bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:47:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f7c757f493fef51013f833018bba106e</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:47:32</sys_created_on>
+        <sys_id>33c757f493fef51013f833018bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:47:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f7c757f493fef51013f833018bba106e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f7c757f493fef51013f833018bba106e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a18b5afc93faf51013f833018bba10ef^sys_idNOT IN6e74933493fef51013f833018bba10c1,a274933493fef51013f833018bba10c1,aa74933493fef51013f833018bba10c1,cf3b27789332391013f833018bba1051"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a18b5afc93faf51013f833018bba10ef</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.room_preference}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>6e74933493fef51013f833018bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d2068bad-c264-436d-b3f6-0ec3c7cf3835</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a18b5afc93faf51013f833018bba10ef</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.client_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>a274933493fef51013f833018bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d8dff601-8134-4662-a125-617d22752320</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a18b5afc93faf51013f833018bba10ef</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:32:58</sys_created_on>
+        <sys_id>aa74933493fef51013f833018bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:32:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0944c9ff-a59b-418c-83ea-9a06b4042589</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a18b5afc93faf51013f833018bba10ef</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.client_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 02:12:23</sys_created_on>
+        <sys_id>cf3b27789332391013f833018bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 02:12:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a0f74646-493b-4f8c-8bb1-c1063a9f11a0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a18b5afc93faf51013f833018bba10ef"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef^sys_idNOT IN1a9e4bbc93bef51013f833018bba10a2,1e9e4bbc93bef51013f833018bba10a5,de9e4bbc93bef51013f833018bba109e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>1a9e4bbc93bef51013f833018bba10a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>1e9e4bbc93bef51013f833018bba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-27 00:07:17</sys_created_on>
+        <sys_id>de9e4bbc93bef51013f833018bba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-27 00:07:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a18b5afc93faf51013f833018bba10ef"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a18b5afc93faf51013f833018bba10ef"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a18b5afc93faf51013f833018bba10ef"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>To track room inventory, tasks, and send email acknowledgements</description>
+        <internal_name>abc</internal_name>
+        <label_cache>[{"name":"f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Advance Booking Record","reference":"x_1227333_abc_ho_0_advance_booking","reference_display":"Advance Booking","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.2101209093f6751013f833018bba1066}}","label":"ABC Admin Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"email"},{"name":"Created or Updated_1.current.client_name","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Client Name","reference":"","reference_display":"Client Name","type":"string","base_type":"string","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"client_name"},{"name":"Created or Updated_1.current.room_preference","label":"Trigger - Record Created or Updated➛Advance Booking Record➛Room Preference","reference":"","reference_display":"Room Preference","type":"choice","base_type":"choice","parent_table_name":"x_1227333_abc_ho_0_advance_booking","column_name":"room_preference","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Single","image":"","rawLabel":"Single","selected":false,"missing":false,"reference":false,"value":"single","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Double","image":"","rawLabel":"Double","selected":false,"missing":false,"reference":false,"value":"double","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Suite","image":"","rawLabel":"Suite","selected":false,"missing":false,"reference":false,"value":"suite","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}},{"used":false,"label":"Other","image":"","rawLabel":"Other","selected":false,"missing":false,"reference":false,"value":"other","parameters":{"name":"x_1227333_abc_ho_0_advance_booking"}}]}]</label_cache>
+        <master>true</master>
+        <name>ABC </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="ABC ">a18b5afc93faf51013f833018bba10ef</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bc538119336791013f833018bba1072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4bc538119336791013f833018bba1072"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4bc538119336791013f833018bba1072"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4bc538119336791013f833018bba1072^sys_idNOT INa3c578119336791013f833018bba1074"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>a3c578119336791013f833018bba1074</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3c578119336791013f833018bba1074"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3c578119336791013f833018bba1074</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>2fc578119336791013f833018bba1075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3c578119336791013f833018bba1074</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>a3c578119336791013f833018bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3c578119336791013f833018bba1074</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>efc578119336791013f833018bba1075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=a3c578119336791013f833018bba1074"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4bc538119336791013f833018bba1072"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4bc538119336791013f833018bba1072^sys_idNOT IN43c538119336791013f833018bba1074"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4bc538119336791013f833018bba1072</id>
+        <name>ABC </name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>43c538119336791013f833018bba1074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=43c538119336791013f833018bba1074"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4bc538119336791013f833018bba1072^sys_idNOT IN5bc538119336791013f833018bba10a1,87c538119336791013f833018bba1075,93c538119336791013f833018bba1099"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABC ">4bc538119336791013f833018bba1072</model>
+        <model_id>4bc538119336791013f833018bba1072</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>5bc538119336791013f833018bba10a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABC ">4bc538119336791013f833018bba1072</model>
+        <model_id>4bc538119336791013f833018bba1072</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>87c538119336791013f833018bba1075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="ABC ">4bc538119336791013f833018bba1072</model>
+        <model_id>4bc538119336791013f833018bba1072</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>93c538119336791013f833018bba1099</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=4bc538119336791013f833018bba1072"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4bc538119336791013f833018bba1072"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4bc538119336791013f833018bba1072^sys_idNOT IN13c578119336791013f833018bba100c,17c578119336791013f833018bba1002,1fc578119336791013f833018bba1071,57c578119336791013f833018bba101c,5bc578119336791013f833018bba1014,9fc578119336791013f833018bba1069,dbc538119336791013f833018bba10dc,dbc578119336791013f833018bba1062"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Check room availability</comment>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>4</order>
+        <parent_ui_id>3167144e-c7e8-4760-b962-94dc03701a60</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>13c578119336791013f833018bba100c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>c4fba501-5e34-4382-8ce1-1750155a2641</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=13c578119336791013f833018bba100c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13c578119336791013f833018bba100c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5fc578119336791013f833018bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>short_description=Check room availability</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13c578119336791013f833018bba100c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9bc578119336791013f833018bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=13c578119336791013f833018bba100c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13c578119336791013f833018bba100c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=13c578119336791013f833018bba100c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Send Acknowledgement Email</comment>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>3</order>
+        <parent_ui_id>3167144e-c7e8-4760-b962-94dc03701a60</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>17c578119336791013f833018bba1002</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>90341f68-2691-4c9f-a57c-bca3b6c53d97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17c578119336791013f833018bba1002"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17c578119336791013f833018bba1002</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>13c578119336791013f833018bba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17c578119336791013f833018bba1002</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5fc578119336791013f833018bba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17c578119336791013f833018bba1002</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>d3c578119336791013f833018bba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>Thank you. Your Reservation was successful!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17c578119336791013f833018bba1002"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>17c578119336791013f833018bba1002</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>93c578119336791013f833018bba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d8dff601-8134-4662-a125-617d22752320}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d8dff601-8134-4662-a125-617d22752320}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Client Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Client Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d8dff601-8134-4662-a125-617d22752320" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;This is an acknowledgement that you have reserved a&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d2068bad-c264-436d-b3f6-0ec3c7cf3835}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d2068bad-c264-436d-b3f6-0ec3c7cf3835}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Room Preference"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Room Preference&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d2068bad-c264-436d-b3f6-0ec3c7cf3835" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with us today. We hope you enjoy your stay with us.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>17c578119336791013f833018bba1002</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dbc578119336791013f833018bba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>17c578119336791013f833018bba1002</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dfc578119336791013f833018bba1003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>17c578119336791013f833018bba1002</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>57c578119336791013f833018bba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>17c578119336791013f833018bba1002</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1bc578119336791013f833018bba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17c578119336791013f833018bba1002"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17c578119336791013f833018bba1002"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>12</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1fc578119336791013f833018bba1071</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>5dee7ff2-b499-4c34-9746-73e7474fcd34</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fc578119336791013f833018bba1071"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fc578119336791013f833018bba1071</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>2fc578119336791013f833018bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fc578119336791013f833018bba1071</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>6bc578119336791013f833018bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>reassignment_count=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1fc578119336791013f833018bba1071"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1fc578119336791013f833018bba1071</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>e7c578119336791013f833018bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1fc578119336791013f833018bba1071</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>63c578119336791013f833018bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1fc578119336791013f833018bba1071</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>27c578119336791013f833018bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1fc578119336791013f833018bba1071"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fc578119336791013f833018bba1071"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Room Cleaning</comment>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>57c578119336791013f833018bba101c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>44e311ba-bf41-4e21-a982-5bed159562a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57c578119336791013f833018bba101c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57c578119336791013f833018bba101c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>53c578119336791013f833018bba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>short_description=Clean room when booking has reached end date</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57c578119336791013f833018bba101c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9fc578119336791013f833018bba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=57c578119336791013f833018bba101c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=57c578119336791013f833018bba101c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=57c578119336791013f833018bba101c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>6</order>
+        <parent_ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5bc578119336791013f833018bba1014</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>5d7bc649-11d0-4ab0-9a71-be8d4f60a3d5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bc578119336791013f833018bba1014"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bc578119336791013f833018bba1014</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1bc578119336791013f833018bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>Sorry, we couldn't book it.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bc578119336791013f833018bba1014</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>57c578119336791013f833018bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bc578119336791013f833018bba1014</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>93c578119336791013f833018bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>&lt;p&gt;There are no rooms available at this time!&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bc578119336791013f833018bba1014"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>5bc578119336791013f833018bba1014</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>d7c578119336791013f833018bba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>5bc578119336791013f833018bba1014</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>13c578119336791013f833018bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>5bc578119336791013f833018bba1014</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>17c578119336791013f833018bba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5bc578119336791013f833018bba1014</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9bc578119336791013f833018bba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5bc578119336791013f833018bba1014</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5fc578119336791013f833018bba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bc578119336791013f833018bba1014"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bc578119336791013f833018bba1014"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>11</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9fc578119336791013f833018bba1069</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>b597e54e-2ad3-4b48-9224-fda1dbe2194c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9fc578119336791013f833018bba1069"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9fc578119336791013f833018bba1069</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>17c578119336791013f833018bba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_abc_booking_team</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9fc578119336791013f833018bba1069</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>d7c578119336791013f833018bba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>short_description=Adjust room inventory accordingly to create availability online</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=9fc578119336791013f833018bba1069"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9fc578119336791013f833018bba1069"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9fc578119336791013f833018bba1069"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dbc538119336791013f833018bba10dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>f26cfeef-9e16-4b3e-86b9-5ca632cb981a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbc538119336791013f833018bba10dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc538119336791013f833018bba10dc</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1fc538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc538119336791013f833018bba10dc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5bc538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc538119336791013f833018bba10dc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>93c538119336791013f833018bba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>x_1227333_abc_ho_0_advance_booking</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc538119336791013f833018bba10dc</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dfc538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbc538119336791013f833018bba10dc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>17c538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.2101209093f6751013f833018bba1066}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1bc538119336791013f833018bba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>53c538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dbc538119336791013f833018bba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9fc538119336791013f833018bba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>dbc538119336791013f833018bba10dc</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>d7c538119336791013f833018bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbc538119336791013f833018bba10dc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbc538119336791013f833018bba10dc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <order>10</order>
+        <parent_ui_id>08930206-d674-425a-8baa-aa39b97988f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dbc578119336791013f833018bba1062</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>a3241f5f-9846-4af9-ac0b-a37d53d2088b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbc578119336791013f833018bba1062"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc578119336791013f833018bba1062</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>53c578119336791013f833018bba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>Your Cancellation is Complete</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc578119336791013f833018bba1062</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9fc578119336791013f833018bba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbc578119336791013f833018bba1062"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>dbc578119336791013f833018bba1062</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5bc578119336791013f833018bba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a0f74646-493b-4f8c-8bb1-c1063a9f11a0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:a0f74646-493b-4f8c-8bb1-c1063a9f11a0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Advance Booking Record &amp;gt; Client Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Client Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a0f74646-493b-4f8c-8bb1-c1063a9f11a0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We have cancelled your reservation as per your request.&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>dbc578119336791013f833018bba1062</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>1fc578119336791013f833018bba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>dbc578119336791013f833018bba1062</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>97c578119336791013f833018bba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbc578119336791013f833018bba1062"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbc578119336791013f833018bba1062"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4bc538119336791013f833018bba1072"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4bc538119336791013f833018bba1072^sys_idNOT IN53c538119336791013f833018bba10d2,57c538119336791013f833018bba10b6,5bc538119336791013f833018bba10ad,dbc538119336791013f833018bba10b2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4f3b27789332391013f833018bba103d</block>
+        <comment>If reservation is cancelled before payment has been made</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>53c538119336791013f833018bba10d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <ui_id>08930206-d674-425a-8baa-aa39b97988f6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=53c538119336791013f833018bba10d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>53c538119336791013f833018bba10d2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>dfc538119336791013f833018bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <value>Cancelled</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=53c538119336791013f833018bba10d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>53c538119336791013f833018bba10d2</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>5fc538119336791013f833018bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=cancelled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>53c538119336791013f833018bba10d2</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>9bc538119336791013f833018bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=53c538119336791013f833018bba10d2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53c538119336791013f833018bba10d2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0b3b27789332391013f833018bba1034</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>57c538119336791013f833018bba10b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <ui_id>e8ec290f-d2a7-4bfc-a73f-2509f11f4e22</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=57c538119336791013f833018bba10b6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=57c538119336791013f833018bba10b6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=57c538119336791013f833018bba10b6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c522df7093fef51013f833018bba102f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>5bc538119336791013f833018bba10ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <ui_id>3167144e-c7e8-4760-b962-94dc03701a60</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5bc538119336791013f833018bba10ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5bc538119336791013f833018bba10ad</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>5bc538119336791013f833018bba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <value>Approved </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bc538119336791013f833018bba10ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5bc538119336791013f833018bba10ad</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>d7c538119336791013f833018bba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>5bc538119336791013f833018bba10ad</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>13c538119336791013f833018bba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5bc538119336791013f833018bba10ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bc538119336791013f833018bba10ad"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">37c757f493fef51013f833018bba106e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ABC ">4bc538119336791013f833018bba1072</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>dbc538119336791013f833018bba10b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <ui_id>d2625d2d-fa23-43c1-a3f8-bba073d089dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dbc538119336791013f833018bba10b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dbc538119336791013f833018bba10b2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>5bc538119336791013f833018bba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbc538119336791013f833018bba10b2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dbc538119336791013f833018bba10b2</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>d7c538119336791013f833018bba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f26cfeef-9e16-4b3e-86b9-5ca632cb981a.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>dbc538119336791013f833018bba10b2</id>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>17c538119336791013f833018bba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dbc538119336791013f833018bba10b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbc538119336791013f833018bba10b2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4bc538119336791013f833018bba1072^sys_idNOT IN63c578119336791013f833018bba1077,6fc578119336791013f833018bba1076,e7c578119336791013f833018bba1076,efc578119336791013f833018bba1076"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4bc538119336791013f833018bba1072</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.room_preference}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>63c578119336791013f833018bba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d2068bad-c264-436d-b3f6-0ec3c7cf3835</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4bc538119336791013f833018bba1072</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.client_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>6fc578119336791013f833018bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d8dff601-8134-4662-a125-617d22752320</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4bc538119336791013f833018bba1072</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.client_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>e7c578119336791013f833018bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a0f74646-493b-4f8c-8bb1-c1063a9f11a0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>4bc538119336791013f833018bba1072</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:40</sys_created_on>
+        <sys_id>efc578119336791013f833018bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0944c9ff-a59b-418c-83ea-9a06b4042589</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4bc538119336791013f833018bba1072"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072^sys_idNOT IN13c538119336791013f833018bba109e,17c538119336791013f833018bba1095,57c538119336791013f833018bba10a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>13c538119336791013f833018bba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>17c538119336791013f833018bba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:39</sys_created_on>
+        <sys_id>57c538119336791013f833018bba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ABC Hotels" source="x_1227333_abc_ho_0">01e5c3db9366b11013f833018bba10b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABC Hotels">01e5c3db9366b11013f833018bba10b3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4bc538119336791013f833018bba1072"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4bc538119336791013f833018bba1072"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4bc538119336791013f833018bba1072"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a18b5afc93faf51013f833018bba10ef</sys_id>
+        <latest_snapshot>4bc538119336791013f833018bba1072</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a18b5afc93faf51013f833018bba10ef^sys_idNOT INfbc578119336791013f833018bba10db"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"fbc578119336791013f833018bba10db","name":"plan","plan_signature":null}}</plan>
+        <plan_id>a18b5afc93faf51013f833018bba10ef</plan_id>
+        <snapshot>3b0a49d19376791013f833018bba1011</snapshot>
+        <sys_created_by>Nkiruka</sys_created_by>
+        <sys_created_on>2023-11-28 02:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbc578119336791013f833018bba10db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Nkiruka</sys_updated_by>
+        <sys_updated_on>2023-11-28 02:16:41</sys_updated_on>
+        <trigger display_value="">bbc578119336791013f833018bba10d9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a18b5afc93faf51013f833018bba10ef"/>
+</record_update>
